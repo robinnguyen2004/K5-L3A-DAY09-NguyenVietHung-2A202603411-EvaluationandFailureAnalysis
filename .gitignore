@@ -3,3 +3,18 @@ __pycache__/
 src/reports/
 src/traces/
 *.sqlite
+
+# From Lab 8: secrets, runtime output, instructor-only pack
+.env
+.env.*
+!.env.example
+.venv/
+*.py[cod]
+.pytest_cache/
+*.sqlite-*
+traces/
+student_drop/
+src/eval/instructor/
+
+# Editor settings
+.vscode/
